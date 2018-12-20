@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <filter>
+	<filter-name>MyFilter</filter-name>
+	<filter-class>com.filter.MyFilter</filter-class>
+	</filter>
+	<filter-mapping>
+	<filter-name>MyFilter</filter-name>
+	<url-pattern>/*</url-pattern>
+	</filter-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>loginCl</servlet-name>
+    <servlet-class>com.controller.loginCl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateUserInfoCl</servlet-name>
+    <servlet-class>com.controller.updateUserInfoCl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateUserInfo</servlet-name>
+    <servlet-class>com.controller.updateUserInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>logoutCl</servlet-name>
+    <servlet-class>com.controller.logoutCl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchBook</servlet-name>
+    <servlet-class>com.controller.searchBook</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>bookCl</servlet-name>
+    <servlet-class>com.controller.bookCl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchRecord</servlet-name>
+    <servlet-class>com.controller.searchRecord</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>returnBook</servlet-name>
+    <servlet-class>com.controller.returnBook</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userFunction</servlet-name>
+    <servlet-class>com.controller.userFunction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userManagement</servlet-name>
+    <servlet-class>com.controller.userManagement</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchUser</servlet-name>
+    <servlet-class>com.controller.searchUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>bookManagement</servlet-name>
+    <servlet-class>com.controller.bookManagement</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>adminSearchBook</servlet-name>
+    <servlet-class>com.controller.adminSearchBook</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>statisticsCl</servlet-name>
+    <servlet-class>com.controller.statisticsCl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>recordCl</servlet-name>
+    <servlet-class>com.controller.recordCl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchRecordByDate</servlet-name>
+    <servlet-class>com.controller.searchRecordByDate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>recommendation</servlet-name>
+    <servlet-class>com.controller.recommendation</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>loginCl</servlet-name>
+    <url-pattern>/loginCl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateUserInfoCl</servlet-name>
+    <url-pattern>/updateUserInfoCl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateUserInfo</servlet-name>
+    <url-pattern>/updateUserInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>logoutCl</servlet-name>
+    <url-pattern>/logoutCl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchBook</servlet-name>
+    <url-pattern>/searchBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>bookCl</servlet-name>
+    <url-pattern>/bookCl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchRecord</servlet-name>
+    <url-pattern>/searchRecord</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>returnBook</servlet-name>
+    <url-pattern>/returnBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userFunction</servlet-name>
+    <url-pattern>/userFunction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userManagement</servlet-name>
+    <url-pattern>/userManagement</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchUser</servlet-name>
+    <url-pattern>/searchUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>bookManagement</servlet-name>
+    <url-pattern>/bookManagement</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>adminSearchBook</servlet-name>
+    <url-pattern>/adminSearchBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>statisticsCl</servlet-name>
+    <url-pattern>/statisticsCl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>recordCl</servlet-name>
+    <url-pattern>/recordCl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchRecordByDate</servlet-name>
+    <url-pattern>/searchRecordByDate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>recommendation</servlet-name>
+    <url-pattern>/recommendation</url-pattern>
+  </servlet-mapping>
+</web-app>
+	
